@@ -1,0 +1,157 @@
+div.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    align-items: center;
+}
+
+div.left{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left top, rgb(140, 148, 255) , rgb(89, 0, 255) );
+    flex: 0.2;
+    border-radius: 50px 0 0 0;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 30px;
+}
+
+
+
+div.top{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+    align-items: center;
+    
+}
+
+.min{
+    display: flex;
+    color: #fff;
+    flex: 0.5;
+    align-items: flex-end;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: -80px;
+}
+
+.max{
+    display: flex;
+    color: #fff;
+    flex: 0.5;
+    align-items: initial;
+    font-size: 37px;
+    text-align: justify;
+}
+
+div.mid{
+    display: flex;
+    flex-direction: row;
+    flex: 0.15;
+    background-image: linear-gradient(to right top, #f3ff4b , #feffa8 );
+    width: 37vh;
+    align-items: center;
+}
+
+.flecha{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    color: rgb(131, 131, 131);
+}
+
+div.bot{
+    display: flex;
+    flex: 0.5;
+    background-image: linear-gradient(to left top, rgb(49, 231, 255) , rgb(105, 26, 252) );
+    width: 37vh;
+}
+
+
+
+div.right{
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+    border-radius: 0 60px 0 60px ;
+    margin: 0 auto;
+    margin: 30px;
+    background-image: linear-gradient(to right top, rgb(100, 235, 253) , rgb(105, 26, 252));
+    height: 100vh;
+}
+
+div.up{
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+    padding: 20px;
+    margin: 50px;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    background-color: rgb(153, 172, 253);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.style{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    background-color: rgb(153, 172, 253);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.down{
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+    padding: 10px;
+    margin: 50px;
+    align-items: center;
+}
+
+.interaction{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    background-color: rgb(153, 172, 253);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.unity{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    background-color: rgb(153, 172, 253);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    color: #fff;
+    font-weight: 650;
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(252, 243, 243);
+    font-weight: 650;
+}
